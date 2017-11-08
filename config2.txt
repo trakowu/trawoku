@@ -18,7 +18,6 @@
  * 9. Reboot for change to take effect.
  * Windows also tends to fragment memory a lot. If you are running on a system with 4-8GB of RAM you might need
  *
- * On Linux you will need to configure large page support "sudo sysctl -w vm.nr_hugepages=128" and increase your
  * ulimit -l. To do do this you need to add following lines to /etc/security/limits.conf - "* soft memlock 262144"
  * and "* hard memlock 262144". You can also do it Windows-style and simply run-as-root, but this is NOT
  * recommended for security reasons.
