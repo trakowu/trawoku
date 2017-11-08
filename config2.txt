@@ -20,7 +20,6 @@
  */
 
 /*
- * use_slow_memory defines our behaviour with regards to large pages. There are three possible options here:
  * warn    - We will try to use large pages, but fall back to slow memory if that fails.
  * never   - If we fail to allocate large pages we will print an error and exit.
  */
