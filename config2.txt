@@ -16,7 +16,6 @@
  * 9. Reboot for change to take effect.
  *
  * ulimit -l. To do do this you need to add following lines to /etc/security/limits.conf - "* soft memlock 262144"
- * and "* hard memlock 262144". You can also do it Windows-style and simply run-as-root, but this is NOT
  * recommended for security reasons.
  *
  * command line system hat isn't starved of memory. I haven't observed any difference on a CLI Linux system between 
