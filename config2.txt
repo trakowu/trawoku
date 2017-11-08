@@ -17,7 +17,6 @@
  *
  * recommended for security reasons.
  *
- * locked and unlocked memory. If that is your setup see option "no_mlck". 
  */
 
 /*
